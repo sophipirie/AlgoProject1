@@ -17,9 +17,9 @@ void LockBox::generateCode(int n, int m) {
 		value = rand() % m;
 		v.push_back(value);
 	}
-	for (int i = 0; i<n; i++) {
-		cout << v.at(i) << " ";
-	}
+	//for (int i = 0; i<n; i++) {
+	//	cout << v.at(i) << " ";
+	//}
 	randomCode = v;
 }
 
@@ -101,7 +101,7 @@ int LockBox::incorrectLocation(LockBox *g) {
 	}
 	return incorrect;
 }
-
+/*
 int main() {
 
 	int length;
@@ -145,3 +145,4 @@ int main() {
 
 return 0;
 }
+*/
